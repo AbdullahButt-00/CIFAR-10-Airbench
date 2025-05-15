@@ -90,11 +90,11 @@ class Muon(torch.optim.Optimizer):
 CIFAR_MEAN = torch.tensor((0.5071, 0.4865, 0.4409))
 CIFAR_STD = torch.tensor((0.2673, 0.2564, 0.2762))
 
-def batch_flip_lr(inputs):
+def batch_flip_lr(inputs):  //  Randomly flips each image in a batch left-right (horizontal flip) with 50% probability. 
     flip_mask = (torch.rand(len(inputs), device=inputs.device) < 0.5).view(-1, 1, 1, 1)
     return torch.where(flip_mask, inputs.flip(-1), inputs)
 
-def batch_crop(images, crop_size):
+def batch_crop(images, crop_size):  // random crops. each image of batch
     r = (images.size(-1) - crop_size)//2
     shifts = torch.randint(-r, r+1, size=(len(images), 2), device=images.device)
     images_out = torch.empty((len(images), 3, crop_size, crop_size), device=images.device, dtype=images.dtype)
