@@ -138,6 +138,6 @@ python airbench_muon_cifar100.py
 ## 🙋‍♂️ Author
 
 > Developed as part of a semester project (Spring 2025) 
-> 🔗 LinkedIn/GitHub: [[your-profile](https://www.linkedin.com/in/m-abdullah-butt-01-01-abc/)]
+> 🔗 LinkedIn: [[my-profile](https://www.linkedin.com/in/m-abdullah-butt-01-01-abc/)]
 
 ---
