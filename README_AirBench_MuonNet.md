@@ -21,9 +21,8 @@ This project reproduces the CNN training method proposed in the 2024 paper on CI
 ```
 .
 ├── airbench94_muon.py              # Original CIFAR-10 implementation
-├── airbench_muon_cifar100.py       # Modified version for CIFAR-100
-├── logs/                           # Log files with saved metrics
-├── datasets/                       # Folder for CIFAR datasets
+├── PROJECT_Report.docx              # detailed report 
+├── airbench71_cifar100.py       # Modified version for CIFAR-100
 ├── README.md                       # This file
 └── log.pt                          # Accuracy results saved
 ```
@@ -138,12 +137,7 @@ python airbench_muon_cifar100.py
 
 ## 🙋‍♂️ Author
 
-> Developed as part of a semester project (Spring 2025)  
-> 📧 Contact: [your-email@example.com]  
-> 🔗 LinkedIn/GitHub: [your-profile]
+> Developed as part of a semester project (Spring 2025) 
+> 🔗 LinkedIn/GitHub: [[your-profile](https://www.linkedin.com/in/m-abdullah-butt-01-01-abc/)]
 
 ---
-
-## 📝 License
-
-This repository builds upon open-source research (MIT Licensed). See [LICENSE](LICENSE) for more details.
