@@ -1,4 +1,4 @@
-# 🧠 AirBench MuonNet — CIFAR-10 & CIFAR-100 Fast CNN Training
+#  AirBench MuonNet — CIFAR-10 & CIFAR-100 Fast CNN Training
 
 > **Research Reproduction & Extension Project**  
 > Based on the paper: [94% on CIFAR-10 in 3.29 Seconds on a Single GPU (2024)](https://ar5iv.labs.arxiv.org/html/2404.00498v2)  
@@ -40,7 +40,7 @@ This project reproduces the CNN training method proposed in the 2024 paper on CI
 
 ---
 
-## 🔁 Phase II: Extension to CIFAR-100
+## Phase II: Extension to CIFAR-100
 
 | Feature              | CIFAR-10                    | CIFAR-100                       |
 |----------------------|-----------------------------|----------------------------------|
@@ -56,9 +56,9 @@ This project reproduces the CNN training method proposed in the 2024 paper on CI
 
 ---
 
-## 🛠️ Setup Instructions
+##  Setup Instructions
 
-### ✅ Requirements
+###  Requirements
 
 - Python ≥ 3.8
 - PyTorch ≥ 2.0 with `torch.compile`
@@ -99,7 +99,7 @@ python airbench_muon_cifar100.py
 
 ---
 
-## 🧠 Technical Highlights
+##  Technical Highlights
 
 - ✅ Patch Whitening Initialization via SVD of 2x2 image patches
 - ✅ Custom Muon Optimizer (whitened, normalized updates)
@@ -135,7 +135,7 @@ python airbench_muon_cifar100.py
 
 ---
 
-## 🙋‍♂️ Author
+##  Author
 
 > Developed as part of a semester project (Spring 2025) 
 > 🔗 LinkedIn: [[my-profile](https://www.linkedin.com/in/m-abdullah-butt-01-01-abc/)]
